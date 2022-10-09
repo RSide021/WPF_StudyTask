@@ -1,0 +1,17 @@
+﻿<Window x:Class="_3lab_C.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3lab_C"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        MouseUp="Window_MouseUp">
+    <Grid>
+        <Button Content="Clear" Canvas.Left="29" Canvas.Top="31" Click="Button_Click" Margin="28,23,656.6,346"/>
+        <Canvas x:Name="canvas" >
+
+        </Canvas>
+    </Grid>
+
+</Window>

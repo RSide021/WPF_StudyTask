@@ -1,0 +1,19 @@
+﻿<Window x:Class="lab7.Filling"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab7"
+        mc:Ignorable="d"
+        Title="Filling" Height="606" Width="404.586">
+    <Grid Margin="0,0,3.6,0">
+        <Label Content="Доступные начинки" HorizontalAlignment="Left" Margin="101,0,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ListBox Name="feelList" HorizontalAlignment="Left" Height="181" Margin="10,42,0,0" VerticalAlignment="Top" Width="375"/>
+        <Button Content="Добавить начинку" HorizontalAlignment="Left" Margin="31,239,0,0" VerticalAlignment="Top" Width="134" Height="29" Click="Button_Click"/>
+        <Button Content="Удалить начинку" HorizontalAlignment="Left" Margin="220,239,0,0" VerticalAlignment="Top" Width="134" Height="29" Click="Button_Click_1"/>
+        <Label Content="Выбранные начинки" HorizontalAlignment="Left" Margin="95,273,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ListBox Name="addedList" HorizontalAlignment="Left" Height="204" Margin="10,315,0,0" VerticalAlignment="Top" Width="375"/>
+        <Button Content="Завершить выбор начинок" HorizontalAlignment="Left" Margin="101,533,0,0" VerticalAlignment="Top" Width="178" Height="34" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
